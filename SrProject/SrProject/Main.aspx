@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
     <div>
     
-        <h1>let's make all initial work apply to this "firstTestBranch" branch instead of Master.</h1>
+        <h1>let's make all initial work apply to this "firstTestBranch" branch instead of Master :).</h1>
 
 
     </div>
