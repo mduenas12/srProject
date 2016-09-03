@@ -5,6 +5,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+
+        <!-- these are necessary INCLUDES for Bootstrap CSS, JavaScript, and jquery -->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script> <!-- needed for js like dropdowns -->
+            <script src="js/bootstrap.min.js"></script>
+            <link href="css/bootstrap.css" rel="stylesheet" />
+            <link href="css/CustomStyles.css" rel="stylesheet" />
+        <!-- ---------------------------------------------------------------------- -->
+
+
+
 </head>
 <body>
     <form id="form1" runat="server">
