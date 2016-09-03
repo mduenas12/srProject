@@ -23,7 +23,7 @@
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 
             <center><h1>let's make all initial work apply to this "firstTestBranch" branch instead of Master :).</h1></center>
-            <center><h2>Are you ready for this??</h2></center>
+            <center><h2>Are you ready for this?? :)</h2></center>
 
 
         </div>
