@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>LOGIN</title>
 
         <!-- these are necessary INCLUDES for Bootstrap CSS, JavaScript, and jquery -->
             <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script> <!-- needed for js like dropdowns -->
@@ -20,9 +20,13 @@
     <form id="form1" runat="server">
     <div>
     
-        <h1>let's make all initial work apply to this "firstTestBranch" branch instead of Master :).</h1>
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+            <center><h1>let's make all initial work apply to this "firstTestBranch" branch instead of Master :).</h1></center>
+            <center><h2>Are you ready for this??</h2></center>
 
 
+        </div>
     </div>
     </form>
 </body>
