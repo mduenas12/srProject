@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-    <title>LOGIN</title>
+    <title>LOGON</title>
 
         <!-- these are necessary INCLUDES for Bootstrap CSS, JavaScript, and jquery -->
             <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script> <!-- needed for js like dropdowns -->
@@ -49,14 +49,17 @@
 											    </div><!--/lass="input-group"-->
 										    </div><!-- /class="form-group"-->
 										    <div class="form-group">
-											    <input type="submit" class="btn btn-lg btn-primary btn-block" value="Sign in">
+<%--											    <input type="submit" class="btn btn-lg btn-primary btn-block" value="Sign in" id="btnSubmit" />--%>
+                                                    <asp:Button ID="btnSubmit" runat="server" Text="SIGN IN" OnClick="btnSubmit_Click" CssClass="btn btn-lg btn-primary btn-block" />
+
 										    </div><!-- /class="form-group"-->
 									    </div><!-- /col sizes -->
                                      </div>
 						</div>
                        
-                        
-
+                        <%--<asp:Button ID="btnSubmit" runat="server" Text="LOGON" OnClick="btnSubmit_Click" CssClass="btn btn-lg btn-primary btn-block" />--%>
+                        <asp:Label ID="lblOut" runat="server" Text="lblOut will be here" />
+                <!-- this also works using bootstap. not sure which style to use, need testing with a DB for function <asp:TextBox ID="txtLName" runat="server" CssClass="form-control">Last</asp:TextBox><!-- need on-click to clear text -->
 
                           <%-- I can't believe I spent so muych time putting order parts in a login form. can you tell Im tired? <asp:TextBox ID="txtFName" runat="server">First</asp:TextBox> <!-- need on-click to clear text -->                     
                             <asp:TextBox ID="txtLName" runat="server">Last</asp:TextBox><!-- need on-click to clear text -->

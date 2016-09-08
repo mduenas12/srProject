@@ -11,8 +11,14 @@ namespace SrProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //txtUser.Value = ""; //can't do this, it will clear on btnSubmit click. no label change 
 
+        }
 
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            lblOut.Text = txtUser.Value;
+            //lblOut.Text = "whatever dooood";
         }
     }
 }
