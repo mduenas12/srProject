@@ -26,9 +26,7 @@
         </div> <!-- /container-fluid -->
        
         <div class="container" style="border-style: solid; border-color: purple;">
-                   
-
-                    
+                                  
                     <div class="row" style="border-style: solid; border-color: purple;"><!-- code snippet inspired by https://blogs.msdn.microsoft.com/cdndevs/2015/04/29/evolving-asp-net-appsapplication-style-and-layout/ -->
 									 
                                     <div class="col-md-4 col-md-offset-4" style="border-style: solid; border-color: blue;">
