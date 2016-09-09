@@ -25,13 +25,12 @@
                 <nav class="navbar navbar-default navbar-static-top" role="navigation">System Name/Logo Here</nav><!-- /navbar (will be stuck at top of screen, won't come down when scrolling)-->
         </div> <!-- /container-fluid -->
        
-        <div class="container" style="border-style: solid; border-color: purple;">
+        <div class="container" style="border-style: solid; border-color: red; margin-top: 60px;">
                                   
                     <div class="row" style="border-style: solid; border-color: purple;"><!-- code snippet inspired by https://blogs.msdn.microsoft.com/cdndevs/2015/04/29/evolving-asp-net-appsapplication-style-and-layout/ -->
-									 
-                                    <div class="col-md-4 col-md-offset-4" style="border-style: solid; border-color: blue;">
-                                            
-										<div class="form-group">
+									
+                                    <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4" style="border-style: solid; border-color: blue;">
+                                       <div class="form-group">
 											<div class="input-group">
 												<span class="input-group-addon">
 													<i class="glyphicon glyphicon-user"></i>
