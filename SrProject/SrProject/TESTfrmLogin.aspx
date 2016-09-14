@@ -36,7 +36,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs" style="border-style:solid; border-color:blue; min-height:300px;" ></div>    <!-- for picture on left-->                          
                         <div class="col-lg-4 col-md-4 col-sm-4" style="border-style: solid; border-color: orchid; min-height:300px;"> <!--took out position:relative-->
 
-                                 <div class="vertical-center" style="min-width: 400px;">   <!-- ***style="border-style:solid; border-color:red;"***-->
+                                 <div class="vertical-center" style="width: 100%;">   <!-- ***style="border-style:solid; border-color:red;"***-->
 
                                        <div class="form-group">
 											<div class="input-group">
