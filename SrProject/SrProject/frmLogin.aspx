@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TESTfrmLogin.aspx.cs" Inherits="SrProject.TESTfrmLogin" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmLogin.aspx.cs" Inherits="SrProject.frmLogin" %>
 
 <!DOCTYPE html>
 
@@ -25,14 +25,13 @@
                 <nav class="navbar navbar-default navbar-static-top" role="navigation">System Name/Logo Here</nav><!-- /navbar (will be stuck at top of screen, won't come down when scrolling)-->
         </div> <!-- /container-fluid -->
        
-        <div class="container-fluid" style="border-style: solid; border-color: red; margin-top: 60px;">
+        <div class="container-fluid" style="border-style: solid; border-color: red;  margin-top: 30px; position:fixed; top: 50%; left: 50%; width:100%; transform:translate(-50%,-50%);">
                                   
                     <div class="row" style="border-style: solid; border-color: purple; background-color: #eee"><!-- code snippet inspired by https://blogs.msdn.microsoft.com/cdndevs/2015/04/29/evolving-asp-net-appsapplication-style-and-layout/ -->
 									
 
                                     <%--<div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4" style="border-style: solid; border-color: blue;">--%>
                         <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs" style="border-style:solid; border-color:blue;" ></div> <!-- buffer col left-->                             
-                        
                         <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs" style="border-style:solid; border-color:blue; min-height:300px;" ></div>    <!-- for picture on left-->                          
                         <div class="col-lg-4 col-md-4 col-sm-4" style="border-style: solid; border-color: orchid; min-height:300px;"> <!--took out position:relative-->
 
@@ -43,7 +42,8 @@
 												<span class="input-group-addon">
 													<i class="glyphicon glyphicon-user"></i>
 												</span> 
-												<input runat="server" type="text" class="form-control" placeholder="Username" id="txtUser" />
+												<input runat="server" type="text" class="form-control" placeholder="Username" id="txtUser" />  
+                                                    <%--<asp:RequiredFieldValidator ID="txtUserValidate" CssClass="text-danger" runat="server" ErrorMessage="Please enter user name." ControlToValidate="txtUser"></asp:RequiredFieldValidator> --%>                                             
 											</div><!--/class="input-group"-->
 										</div><!-- class="form-group"-->
 										<div class="form-group">
@@ -60,7 +60,7 @@
                                 
 										</div><!-- /class="form-group"-->
                                 </div><!-- /input container -->
-									</div><!-- /column -->
+						</div><!-- /column -->
 
                         <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs" style="border-style:solid; border-color:blue;" ></div> <!-- buffer col left-->                             
                                      
