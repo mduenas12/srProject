@@ -13,26 +13,28 @@ namespace SrProject
 {
     public class clsDataLayer
     {
-        public static dsUserLogin VerifyUser(string Database, string UserName, string UserPassword)
-        {
+        public static DataTable VerifyUser(string Database, string UserName, string UserPassword)
+        {//this will take in the given username and password -- then put results in table and return it. 
             //var
-            dsUserLogin DS;
+                //dsUserLogin DS;
             OleDbConnection sqlConn;
             OleDbDataAdapter sqlDA;
+
             // form connection 
             sqlConn = new OleDbConnection("PROVIDER=Microsoft.ACE.OLEDB.12.0;" +
             "Data Source=" + Database);
             // form statement
-            sqlDA = new OleDbDataAdapter("Select SecurityLevel from tblUserLogin " +
+            sqlDA = new OleDbDataAdapter("Select * from tblUserLogin " +
             "where UserName like '" + UserName + "' " +
             "and UserPassword like '" + UserPassword + "'", sqlConn);
-            //instanciate dsUser
-            DS = new dsUserLogin();
-            // fill to table
-            sqlDA.Fill(DS.tblUserLogin);
-            // return the dataset
-            return DS;
-        }
+            
+            //make and fill table
+            DataTable dt = new DataTable();
+            sqlDA.Fill(dt);
+
+            return dt;
+
+        }//datatable verifyUser//
 
 
 

@@ -10,7 +10,7 @@
 namespace SrProject {
     
     
-    public partial class frmLogin {
+    public partial class frmLoginExperimental {
         
         /// <summary>
         /// Head1 control.

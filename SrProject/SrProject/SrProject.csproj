@@ -63,12 +63,12 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="Elite.accdb" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="frmLoginExperimental.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\npm.js" />
     <Content Include="Main.aspx" />
     <Content Include="frmLogin.aspx" />
-    <Content Include="DummyFrmLogin.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +77,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>dsUserLogin.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginExperimental.aspx.cs">
+      <DependentUpon>frmLoginExperimental.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmLoginExperimental.aspx.designer.cs">
+      <DependentUpon>frmLoginExperimental.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
@@ -92,13 +99,6 @@
     </Compile>
     <Compile Include="frmLogin.aspx.designer.cs">
       <DependentUpon>frmLogin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="DummyFrmLogin.aspx.cs">
-      <DependentUpon>DummyFrmLogin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DummyFrmLogin.aspx.designer.cs">
-      <DependentUpon>DummyFrmLogin.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
