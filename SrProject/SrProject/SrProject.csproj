@@ -68,6 +68,7 @@
     <Content Include="js\npm.js" />
     <Content Include="Main.aspx" />
     <Content Include="frmLogin.aspx" />
+    <Content Include="DummyFrmLogin.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +92,13 @@
     </Compile>
     <Compile Include="frmLogin.aspx.designer.cs">
       <DependentUpon>frmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DummyFrmLogin.aspx.cs">
+      <DependentUpon>DummyFrmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DummyFrmLogin.aspx.designer.cs">
+      <DependentUpon>DummyFrmLogin.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
