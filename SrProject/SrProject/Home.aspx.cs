@@ -27,6 +27,12 @@ namespace SrProject
             GridView1.Visible = true;
         }
 
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            lblRefreshTime.Text = "Last updated at: " + DateTime.Now.ToLongTimeString();
+            GridView1.Visible = true;
+        }
+
        
     }
 }

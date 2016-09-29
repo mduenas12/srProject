@@ -17,6 +17,8 @@
         <br />
         <asp:ScriptManager ID="ScriptManager1" runat="server">
         </asp:ScriptManager>
+        <asp:Timer ID="Timer1" runat="server" Interval="5000" OnTick="Timer1_Tick">
+        </asp:Timer>
         <br />
         <asp:Button ID="btnupdate" runat="server" Text="Button" OnClick="btnupdate_Click" />
         <br />
@@ -66,9 +68,10 @@
                         <asp:Parameter Name="Original_UserID" Type="Int32" />
                     </UpdateParameters>
                 </asp:ObjectDataSource>
+               
                 <br />
-                <br />
-                <br />
+               
+                <asp:Label ID="lblRefreshTime" runat="server"></asp:Label>
                 <br />
                 <br />
                 <br />
