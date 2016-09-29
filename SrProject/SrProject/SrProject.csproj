@@ -64,6 +64,7 @@
     <Content Include="Elite.accdb" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="frmLoginExperimental.aspx" />
+    <Content Include="Home.aspx" />
     <Content Include="images\pexels-photo.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
@@ -86,6 +87,13 @@
     </Compile>
     <Compile Include="frmLoginExperimental.aspx.designer.cs">
       <DependentUpon>frmLoginExperimental.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
