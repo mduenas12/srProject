@@ -44,6 +44,17 @@
     height: 100%;
 }
 
+
+.boxme {
+    background-color: rgba(240,240,240,0.7);
+    min-height:80px;
+    min-width: 100px;
+    border: 2px solid red;
+    /*padding: 2px 2px 2px 2px;
+    font-size: 15px;*/
+}
+
+
 html { 
   background: url(../images/pexels-photo.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;

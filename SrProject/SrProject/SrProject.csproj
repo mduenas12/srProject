@@ -61,21 +61,30 @@
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="ctrlModifyEmployees.ascx" />
     <Content Include="Elite.accdb" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="frmLoginExperimental.aspx" />
-    <Content Include="Home.aspx" />
+    <Content Include="frmManagerHome.aspx" />
     <Content Include="images\pexels-photo.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\npm.js" />
     <Content Include="Main.aspx" />
-    <Content Include="frmLogin.aspx" />
     <Content Include="Notes.txt" />
+    <Content Include="TEST.aspx" />
     <Content Include="Web.config" />
+    <Content Include="contentpagetest.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsDataLayer.cs" />
+    <Compile Include="ctrlModifyEmployees.ascx.cs">
+      <DependentUpon>ctrlModifyEmployees.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ctrlModifyEmployees.ascx.designer.cs">
+      <DependentUpon>ctrlModifyEmployees.ascx</DependentUpon>
+    </Compile>
     <Compile Include="dsUserLogin.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -88,12 +97,12 @@
     <Compile Include="frmLoginExperimental.aspx.designer.cs">
       <DependentUpon>frmLoginExperimental.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="frmManagerHome.aspx.cs">
+      <DependentUpon>frmManagerHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="frmManagerHome.aspx.designer.cs">
+      <DependentUpon>frmManagerHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
@@ -103,12 +112,26 @@
       <DependentUpon>Main.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="frmLogin.aspx.cs">
-      <DependentUpon>frmLogin.aspx</DependentUpon>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmLogin.aspx.designer.cs">
-      <DependentUpon>frmLogin.aspx</DependentUpon>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TEST.aspx.cs">
+      <DependentUpon>TEST.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TEST.aspx.designer.cs">
+      <DependentUpon>TEST.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contentpagetest.aspx.cs">
+      <DependentUpon>contentpagetest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contentpagetest.aspx.designer.cs">
+      <DependentUpon>contentpagetest.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +154,7 @@
     <Content Include="dsUserLogin.xss">
       <DependentUpon>dsUserLogin.xsd</DependentUpon>
     </Content>
+    <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

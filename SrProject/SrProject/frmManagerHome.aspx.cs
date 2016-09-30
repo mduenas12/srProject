@@ -11,7 +11,7 @@ namespace SrProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            GridView1.Visible = false;
+            //GridView1.Visible = false;
         }
 
         protected void btnupdate_Click(object sender, EventArgs e)
@@ -24,13 +24,13 @@ namespace SrProject
 
             lblAjax.Text = ViewState["count"].ToString();
 
-            GridView1.Visible = true;
+            //GridView1.Visible = true;
         }
 
         protected void Timer1_Tick(object sender, EventArgs e)
         {
             lblRefreshTime.Text = "Last updated at: " + DateTime.Now.ToLongTimeString();
-            GridView1.Visible = true;
+            //GridView1.Visible = true;
         }
 
        

@@ -67,22 +67,13 @@ namespace SrProject {
         protected global::System.Web.UI.WebControls.Label lblAjax;
         
         /// <summary>
-        /// GridView1 control.
+        /// ctrlModifyEmployees1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
-        
-        /// <summary>
-        /// ObjectDataSource1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSource1;
+        protected global::SrProject.ctrlModifyEmployees ctrlModifyEmployees1;
         
         /// <summary>
         /// lblRefreshTime control.

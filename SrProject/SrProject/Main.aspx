@@ -25,7 +25,7 @@
             <center><h1>let's make all initial work apply to this "firstTestBranch" branch instead of Master :).</h1></center>
             <center><h2>Are you ready for this?? :)</h2></center>
 
-
+            <asp:LinkButton ID="btnGoHome" runat="server" PostBackUrl="~/frmManagerHome.aspx">HomePage</asp:LinkButton>
         </div>
     </div>
     </form>
