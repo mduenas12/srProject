@@ -27,6 +27,11 @@
 
             <asp:LinkButton ID="btnGoHome" runat="server" PostBackUrl="~/frmManagerHome.aspx">HomePage</asp:LinkButton>
         </div>
+
+
+        <div class="boxme"><h1>some div in heeeere</h1></div>
+
+
     </div>
     </form>
 </body>

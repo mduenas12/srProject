@@ -46,22 +46,30 @@
 
 
 .boxme {
-    background-color: rgba(240,240,240,0.7);
-    min-height:80px;
-    min-width: 100px;
-    border: 2px solid red;
-    /*padding: 2px 2px 2px 2px;
-    font-size: 15px;*/
+
+    /*margin-top: 50px;*/
+    /*height: 100%;*/ 
+    /*min-height:300px;*/
+    /*background-color: silver;*/
+    /*background-color: rgba(240,240,240,0.7);*/
+    border: 1px solid blue;
+    /*background-color: #cdcdcd;*/
 }
 
+.colsize {
+    min-height:500px;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
 
-html { 
+/*html { 
   background: url(../images/pexels-photo.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+  height:100%;
+}*/
 
 
 
@@ -3695,7 +3703,8 @@ tbody.collapse.in {
   content: "";
   border-top: 0;
   border-bottom: 4px dashed;
-  border-bottom: 4px solid \9;
+  border-bottom: 4px solid; /*I took out a " \9 " from this because it was an error*/
+
 }
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {

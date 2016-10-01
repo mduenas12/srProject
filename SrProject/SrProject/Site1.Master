@@ -2,11 +2,11 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title></title>
 
-     <!-- these are necessary INCLUDES for Bootstrap CSS, JavaScript, and jquery -->
+    <!-- these are necessary INCLUDES for Bootstrap CSS, JavaScript, and jquery -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <!-- needed for js like dropdowns -->
     <script src="js/bootstrap.min.js"></script>
@@ -14,34 +14,37 @@
     <link href="css/CustomStyles.css" rel="stylesheet" />
     <!-- ---------------------------------------------------------------------- -->
 
-    
+
 </head>
-<body>
+<body style="background-color: #cdcdcd;" >
     <form id="form1" runat="server">
         <div>
+
+            <nav class="navbar navbar-default navbar-static-top" role="navigation">
+                <a class="navbar-brand" href="#">
+                    <!-- need to link this to home -->
+                    <img alt="Brand" src="..." /><!-- link to image -->
+                </a>
+            </nav>
+            <div class="container-fluid boxme" style="min-height: 500px;">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs boxme">
+                        <div class="boxme colsize">**t in here</div>
+                    </div>
+                    
+                    <div class="col-lg-10 col-md-10 col-sm-10 boxme">
+                        <div class="boxme colsize">
+                            <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                        <!--/maincontent div - could (prob) get rid of containing div if desired-->
+                    </div>
+                    <!-- style="border: 2px solid red; min-height:80px;" -->
+                </div><!--/row-->
+            </div>
             
-                <nav class="navbar navbar-default navbar-static-top" role="navigation">
-                    <a class="navbar-brand" href="#">
-                        <!-- need to link this to home -->
-                        <img alt="Brand" src="..." /><!-- link to image -->
-                    </a>
-                </nav>
-                <div class="container-fluid" style="height:auto;">
-                    <%--<div class="row" style="border: 2px solid red; height:100%;" >--%>
-                        <div class="col-lg-2 col-md-2 col-sm-2" style="border: 2px solid red; min-height:90%;" >some s**t in here</div>
-                        <div class="col-lg-10 col-md-10 col-sm-10"  style="border: 2px solid red; min-height:80px;" >more larger sh** here</div>
-                    <%--</div>--%>
-                </div>
-                <div id="boxme">finally</div>
-
-
-
-            
-
-
-
-
         </div>
+
     </form>
 </body>
 </html>
