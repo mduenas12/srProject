@@ -26,14 +26,14 @@
                     <img alt="Brand" src="..." /><!-- link to image -->
                 </a>
             </nav>
-            <div class="container-fluid boxme" style="min-height: 500px;">
+            <div class="container-fluid" style="min-height: 500px; border: 2px dashed red;">
                 <div class="row">
-                    <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs boxme">
-                        <div class="boxme colsize">**t in here</div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs" style="border:2px dashed blue;">
+                        <div class="colsize">things in here</div>
                     </div>
                     
-                    <div class="col-lg-10 col-md-10 col-sm-10 boxme">
-                        <div class="boxme colsize">
+                    <div class="col-lg-10 col-md-10 col-sm-10" style="border:2px solid green;">
+                        <div class="colsize"><!-- issue is HERE **** when trying to get rid of this outline, this div moves down.-->
                             <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
                             </asp:ContentPlaceHolder>
                         </div>
